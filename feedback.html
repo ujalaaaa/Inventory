@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback - Tech Treasures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      background-attachment: fixed;
+	color: white;
+	text-align: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+     h1 {
+      color: black;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    h2 {
+      color: white;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 10px 0 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 100px; 
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    form {
+      text-align: left;
+    }
+
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .review {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .review p {
+      margin: 0;
+    }
+
+    footer {
+  text-align: center;
+  color: black; /* Set text color in the footer to black */
+}
+
+   form button {
+      display: block;
+      margin: 10px auto; /* Center-align the button */
+    }
+
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li class="active"><a href="feedback.html">Feed Back</a></li>
+  <li><a href="about.html">About us</a></li>
+</ul>
+
+<header>
+  <h1>Feedback</h1>
+  <section>
+    <h2>Give Us Valuable Feedback</h2>
+    <form action="mailto:support@techtreasures.com" method="post" enctype="text/plain">
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+      <p>We appreciate your feedback! Please let us know how we can improve our services.</p>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <p><strong>User123:</strong> Tech Treasures is amazing! 5/5</p>
+    </div>
+
+    <div class="review">
+      <p><strong>GadgetMaster:</strong> Great selection of gadgets. 4/5</p>
+    </div>
+
+    <div class="review">
+      <p><strong>HappyCustomer:</strong> Fast and reliable service. 5/5</p>
+    </div>
+
+    <p>If you encounter any issues or have suggestions, you can also reach out to our customer support at <a href="mailto:support@techtreasures.com">support@techtreasures.com</a>.</p>
+  </section>
+</header>
+
+<footer>
+  <p>&copy; 2024 Tech Treasures. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
